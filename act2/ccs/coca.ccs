@@ -1,0 +1,77 @@
+style   /* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #18529d;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Bloques de contenido */
+.content {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #28AD56;
+}
+
+.content h2 {
+    color: #18529d;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: #000000;
+}
+
+/* Estilo de imagen */
+img {
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Pie de página */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
